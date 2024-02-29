@@ -9,7 +9,7 @@ export default function Footer() {
      <FaTwitter size={30} className='text-[#05410be8] hover:text-[#8dd494e3]'/>
      <FaYoutube size={30} className='text-[#05410be8] hover:text-[#8dd494e3]'/>
      </div>
-     <div className='flex gap-5'>
+     <div className='flex flex-col md:flex gap-5'>
         <p className='flex gap-2'>
         Copyright  <FaCopyright size={16}/>  </p>   
         <p>
