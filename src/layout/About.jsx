@@ -2,13 +2,13 @@ import React from 'react'
 import logo from '../assets/image/house2.png'
 export default function About() {
   return (
-    <main className='max-w-[1440px] px-5 flex flex-col md:grid grid-cols-2 gap-5 '>
+    <main className='max-w-[1440px] px-5 flex flex-col-reverse  md:grid grid-cols-2 gap-5 '>
 
 <div className='mt-10 '> 
-       <img src={logo} alt=""  className='object-cover rounded-md order-2'/>
+       <img src={logo} alt=""  className='object-cover rounded-md '/>
     </div>
 
-    <div classname='order-1'>
+    <div >
        <h3 className=' text-4xl md:text-5xl lg:text-7xl font-bold text-[#085C11E8] '>
        Begin your awesome journey
        </h3>
